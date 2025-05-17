@@ -1,0 +1,103 @@
+<rml>
+<head>
+    <title>KEYS</title>
+    <link type="text/rcss" href="scrollbar.rcss"/>
+    <link type="text/rcss" href="keys.rcss"/>
+    <style>
+    </style>
+</head>
+
+<body id="menu-keys-setup">
+
+<div class="title">KEY/BUTTONS BINDINGS</div>
+
+<div class="clipper">
+<div class="scrollbox">
+
+<div class="game-menu sf" id="menu" scroll>
+    <div id="Move_Forward" key-chooser><t>Move Forward</t></div>
+    <div id="Move_Backward" key-chooser><t>Move Backward</t></div>
+    <div id="Turn_Left" key-chooser><t>Turn Left</t></div>
+    <div id="Turn_Right" key-chooser><t>Turn Right</t></div>
+    <div id="Strafe" key-chooser><t>Strafe</t></div>
+    <div id="Fire" key-chooser><t>Fire</t></div>
+    <div id="Open" key-chooser><t>Use/Open</t></div>
+    <div id="Run" key-chooser><t>Run</t></div>
+    <div id="AutoRun" key-chooser><t>Toggle Run</t></div>
+    <div id="Jump" key-chooser><t>Jump</t></div>
+    <div id="Crouch" key-chooser><t>Crouch</t></div>
+
+<!--
+    <div id="Look_Up" key-chooser><t>Look Up</t></div>
+    <div id="Look_Down" key-chooser><t>Look Down</t></div>
+-->
+    <div id="Strafe_Left" key-chooser><t>Strafe Left</t></div>
+    <div id="Strafe_Right" key-chooser><t>Strafe Right</t></div>
+    <div id="Aim_Up" key-chooser><t>Aim Up</t></div>
+    <div id="Aim_Down" key-chooser><t>Aim Down</t></div>
+
+
+    <div id="Weapon_1" key-chooser><t>Katana/Fists of Fury</t></div>
+    <div id="Weapon_2" key-chooser><t>Shurikens</t></div>
+    <div id="Weapon_3" key-chooser><t>Riot Shotgun</t></div>
+    <div id="Weapon_4" key-chooser><t>Uzi</t></div>
+    <div id="Weapon_5" key-chooser><t>Rocket Launcher</t></div>
+    <div id="Weapon_6" key-chooser><t>Grenade Launcher</t></div>
+    <div id="Weapon_7" key-chooser><t>Sticky Bombs</t></div>
+    <div id="Weapon_8" key-chooser><t>Railgun</t></div>
+    <div id="Weapon_9" key-chooser><t>Guardian Head</t></div>
+    <div id="Weapon_10" key-chooser><t>Ripper Heart</t></div>
+
+    <div id="Alt_Fire" key-chooser><t>Alt Fire</t></div>    
+    <div id="Inventory" key-chooser><t>Use Item</t></div>
+    <div id="Inventory_Left" key-chooser><t>Next Item</t></div>
+    <div id="Inventory_Right" key-chooser><t>Previous Item</t></div>
+    <div id="Med_Kit" key-chooser><t>Med Kit</t></div>
+    <div id="Smoke_Bomb" key-chooser><t>Smoke Bomb</t></div>
+    <div id="Night_Vision" key-chooser><t>Night Vision</t></div>
+    <div id="Gas_Bomb" key-chooser><t>Gas Bomb</t></div>
+    <div id="Flash_Bomb" key-chooser><t>Flash Bomb</t></div>
+    <div id="Caltrops" key-chooser><t>Caltrops</t></div>
+
+<!--    <div id="TurnAround" key-chooser><t>Turn Around</t></div> -->
+<!--    <div id="SendMessage" key-chooser><t>Send Message</t></div> -->
+
+    <div id="Map" key-chooser><t>Map</t></div>
+    <div id="Shrink_Screen" key-chooser><t>Map Zoom Out</t></div>
+    <div id="Enlarge_Screen" key-chooser><t>Map Zoom In</t></div>
+    <div id="Map_Follow_Mode" key-chooser><t>Map Follow Mode</t></div>
+    <div id="Mouse_Aiming" key-chooser><t>Vertical Aming</t></div>
+    <div id="Center_View" key-chooser><t>Center View</t></div>
+
+<!--
+    <div id="Holster_Weapon" key-chooser><t>Holster_Weapon</t></div>
+    <div id="See_Co_Op_View" key-chooser><t>See_Coop_View</t></div>
+    <div id="Mouse_Aiming" key-chooser><t>Mouse_Aiming</t></div>
+    <div id="Toggle_Crosshair" key-chooser><t>Toggle_Crosshair</t></div>
+-->
+
+    <div id="Next_Weapon" key-chooser><t>Next Weapon</t></div>
+    <div id="Previous_Weapon" key-chooser><t>Previous Weapon</t></div>
+
+<!--
+    <div id="Help_Menu" key-chooser><t>Help Screen</t></div>
+-->
+    <div id="Save_Menu" key-chooser><t>Save Menu</t></div>
+    <div id="Load_Menu" key-chooser><t>Load Menu</t></div>
+    <div id="Sound_Menu" key-chooser><t>Sound Options</t></div>
+    <div id="Next_Track" key-chooser><t>Change Track</t></div>
+    <div id="Quick_Save" key-chooser><t>Quick Save</t></div>
+    <div id="View_Mode" key-chooser><t>3rd Person View</t></div>
+    <div id="Game_Menu" key-chooser><t>Game Options</t></div>
+    <div id="Quick_Load" key-chooser><t>Quick Load</t></div>
+    <div id="Quit_Game" key-chooser><t>Quit Game</t></div>
+    <div id="Video_Menu" key-chooser><t>Video Settings</t></div>
+
+</div>
+
+</div>
+<div class="disabled" id="hint">Press F8 to reset bindings</div>
+</div>
+
+</body>
+</rml>

@@ -1,0 +1,13 @@
+<rml>
+<head>
+    <link type="text/css" href="confirmation.rcss"/>
+</head>
+
+<body id="key-prompt"">
+
+<div class="game-menu"">
+    <div style="color:white;top:100px;">PRESS KEY</div>
+</div>
+
+</body>
+</rml>

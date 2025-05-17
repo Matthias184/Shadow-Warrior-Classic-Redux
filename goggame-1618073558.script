@@ -1,0 +1,18 @@
+{
+    "actions": [
+        {
+            "install": {
+                "action": "Execute", 
+                "arguments": {
+                    "executable": "galaxy_shadow_warrior_classic_redux_2.0.0.2.exe", 
+                    "runAsAdmin": true
+                }
+            }, 
+            "languages": [
+                "*"
+            ], 
+            "name": "Install the game"
+        }
+    ], 
+    "productId": "1618073558"
+}

@@ -1,0 +1,78 @@
+<rml>
+<head>
+    <link type="text/css" href="common.rcss"/>
+    <link type="text/css" href="config.rcss"/>
+    <link type="text/css" href="game.rcss"/>
+    <title>GAME OPTIONS</title>
+</head>
+
+<body id="menu-game-options">
+
+<div class="title">GAMEPLAY</div>
+
+<div class="game-menu sf">
+    <div id="crosshair" options class="noarrows">
+    <t>
+        <caption>CROSSHAIR</caption>
+        <options>
+            <option id="crosshair-on">ON</option>
+            <option id="crosshair-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="level-stats" options class="noarrows">
+    <t>
+        <caption>LEVEL STATS</caption>
+        <options>
+            <option id="stats-on">ON</option>
+            <option id="stats-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="statusbar" options class="noarrows">
+    <t>
+        <caption>STATUSBAR</caption>
+        <options>
+            <option id="statusbar-0">HIDDEN</option>
+            <option id="statusbar-1">BRIEF</option>
+            <option id="statusbar-2">FULL</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="auto-aiming" options class="noarrows">
+    <t>
+        <caption>AUTO-AIMING</caption>
+        <options>
+            <option id="autoaim-on">ON</option>
+            <option id="autoaim-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="auto-weapon-switch" options class="noarrows">
+    <t>
+        <caption>WEAPON AUTO SWITCH</caption>
+        <options>
+            <option id="autoswitch-off">OFF</option>
+            <option id="autoswitch-on">ON</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="use-darts" options class="noarrows">
+    <t>
+        <caption>USE DARTS</caption>
+        <options>
+            <option id="usedarts-off">OFF</option>
+            <option id="usedarts-on">ON</option>
+        </options>
+    </t>
+    </div>
+
+</div>
+
+</body>
+</rml>

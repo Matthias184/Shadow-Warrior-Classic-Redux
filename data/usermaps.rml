@@ -1,0 +1,22 @@
+<rml>
+<head>
+    <link type="text/rcss" href="scrollbar.rcss"/>
+    <link type="text/rcss" href="usermaps.rcss"/>
+</head>
+
+<body id="menu-usermaps">
+
+<div class="title">USER MAPS</div>
+
+<div class="clipper">
+<div class="scrollbox">
+
+<div class="game-menu sf" id="menu" scroll>
+    <div class="empty"><t>No maps found</t></div>
+</div>
+
+</div>
+</div>
+
+</body>
+</rml>

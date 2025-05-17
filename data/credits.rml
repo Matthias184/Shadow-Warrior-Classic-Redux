@@ -1,0 +1,196 @@
+<rml>
+<head>
+    <link type="text/css" href="scrollbar.rcss"/>
+    <link type="text/css" href="credits.rcss"/>
+    <title>CREDITS</title>
+</head>
+
+<body id="menu-credits">
+
+<div class="game-menu" style="top:400px;display:none;">
+    <div id="dummy">DUMMY</div>
+</div>
+
+<div class="clipper">
+<div class="scrollbox">
+
+<h1>SHADOW WARRIOR CLASSIC REDUX</h1>
+
+<p id="version-string">Version x.y.z</p>
+
+<h1>GENERAL ARCADE</h1>
+
+<h2>Programmers</h2>
+<p>Sergei Shubin</p>
+<p>Gennadii <n>"termit"</n> Potapov</p>
+
+<h2>Artist</h2>
+<p>Anton Savinov</p>
+
+<h2>Main Theme Cover</h2>
+<p>Konstantin <n>"Kerranswell"</n> Tsikolenko</p>
+
+<h2>Special Thanks</h2>
+<p><n>Green (Duke4.net)</n>, Sam <n>"Lunick"</n> Schultz, Maria Mikhaylova, Matthew <n>"Stormx360"</n> Cook, Evan <n>"Hendricks266"</n> Ramos, James Manning</p>
+
+<h1>DEVOLVER DIGITAL</h1>
+
+<h2>El Presidente</h2>
+<p>Harry Miller</p>
+
+<h2>Fun Slinger</h2>
+<p>Mike Wilson</p>
+
+<h2>Distinguished Gentleman</h2>
+<p>Graeme Struthers</p>
+
+<h2>Cash Money</h2>
+<p>Rick Stults</p>
+
+<h2>Paralegal</h2>
+<p>Nigel Lowrie</p>
+
+<h1>Open-Source</h1>
+<h2>Based on JFSW/SWP</h2>
+<p>Jonathon <n>"JonoF"</n> Fowler</p>
+<p>Richard <n>"TerminX"</n> Gobeille</p>
+<p>Par <n>"Parkar"</n> Karlsson</p>
+<p>Ben <n>"ProAsm"</n> Smit</p>
+<h2>With Additional Code from EDuke32</h2>
+<p>Pierre-Loup <n>"Plagman"</n> Griffais</p>
+<p>Philipp <n>"Helixhorned"</n> Kutin</p>
+<p>Evan <n>"Hendricks266"</n> Ramos</p>
+
+<h1>3D REALMS</h1>
+
+<h2>Game Design</h2>
+<p>Frank Maddin</p>
+<p>Jim Norwood</p>
+
+<h2>Project Leader</h2>
+<p>George Broussard</p>
+
+<h2>Game Programming</h2>
+<p>Frank Maddin</p>
+<p>Jim Norwood</p>
+
+<h2>"Build" 3D Engine & Tools</h2>
+<p>Ken Silverman</p>
+
+<h2>Primary Map Designers</h2>
+<p>Stephen Cole</p>
+<p>Keith Schuler</p>
+
+<h2>Secondary Map Designers</h2>
+<p>George Broussard</p>
+<p>Jim Norwood</p>
+<p>Randall S. Pitchford II</p>
+<p>Eric Reuter</p>
+
+<h2>Artists</h2>
+<p>Stephen Hornback</p>
+<p>Brian Martel</p>
+<p>Jim Norwood</p>
+<p>Michael Wallin</p>
+
+<h2>Music & Sound Effects</h2>
+<p>Lee Jackson</p>
+
+<h2>Voice Talent</h2>
+<p>John Galt (Lo Wang)</p>
+<p>Lani Minella and Rose Schuler (Anime girls)</p>
+
+<h2>Game Manual</h2>
+<p>George Broussard</p>
+<p>Joe Siegler</p>
+
+<h2>Special Thanks</h2>
+<p>Chuck Jones, Doug Wood (Supplemental Art)</p>
+
+<h2>Additional Thanks</h2>
+<p>Allen Blum, Tony Kee, Rick Raymo, Joe Siegler, 3dfx Interactive, Core Design for Lara, naked girls everywhere, Pizza Hut, Skillman Wok, 3D Realms Beta Testers</p>
+
+<h1>TWIN DRAGON</h1>
+
+<h2>Developed by</h2>
+<p>Level Infinity</p>
+<p>Wylde Productions</p>
+ 
+<h2>Executive Producer</h2>
+<p>Robert Waring</p>
+
+<h2>Coordinator</h2>
+<p>Crista Forest</p>
+
+<h2>Level Design</h2>
+<p>Alan Bellows</p>
+<p>Eric Boltjes</p>
+<p>Crista Forest</p>
+<p>Matthew Harris</p>
+<p>Ryan Isenberg</p>
+<p>Ty Matthews</p>
+<p>Neil Munday</p>
+<p>Krystian Palys</p>
+<p>Nick Parde</p>
+<p>Jim Semkiw</p>
+<p>ChoYan Wong</p>
+
+<h2>Art</h2>
+<p>Crista Forest</p>
+<p>Kevin McLernon</p>
+
+<h2>3D Modelling</h2>
+<p>Kevin McLernon</p>
+
+<h2>Additional Art</h2>
+<p>Cho Yan Wong</p>
+<p>Matthew Harris</p>
+
+<h2>Sound F/X</h2>
+<p>Simon Castles</p>
+
+<h2>Programming</h2>
+<p>Matthew Harris</p>
+
+<h2>Beta Testing</h2>
+<p>Bill Lovan</p>
+<p>Dick Svendsen</p>
+<p>Rob Brown</p>
+
+<h2>Thanks To</h2>
+<p>3D Realms, Brad Wernicke, Chuck Spence, Chris Day, Joe Wilcox, Charlie Wiederhold, Robert Travis</p>
+
+<h1>WANTON DESTRUCTION</h1>
+
+<h2>Producer</h2>
+<p>Anthony Campiti</p>
+ 
+<h2>Project Leaders</h2>
+<p>Charlie Wiederhold</p>
+<p>Robert Travis</p>
+ 
+<h2>Level Design</h2>
+<p>Charlie Wiederhold</p>
+<p>Robert Travis</p>
+<p>Matt Harris</p>
+<p>Cho Yan Wong</p>
+<p>Tyler Larsen</p>
+<p>John Leonard</p>
+<p>Tim Nolan</p>
+ 
+<h2>Art</h2>
+<p>Dave Manuel</p>
+<p>Mike Buck</p>
+ 
+<h2>Programming</h2>
+<p>Dave Eaton</p>
+<p>Jim Boer</p>
+ 
+<h2>Testing</h2>
+<p>Dick Svendson</p>
+
+</div>
+</div>
+
+</body>
+</rml>

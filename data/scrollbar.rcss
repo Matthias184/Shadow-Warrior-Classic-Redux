@@ -1,0 +1,27 @@
+scrollbarvertical {
+    margin-left: 12px;
+    width: 24px;
+}
+
+scrollbarvertical slidertrack {
+    background-color: rgb(179,179,179);
+}
+
+scrollbarvertical sliderbar {
+    width: 24px;
+    min-height: 46px;
+    max-height: 100px;
+    background-color: rgb(168,40,39);
+}
+
+scrollbarvertical sliderarrowdec {
+    display: none;
+    width: 24px;
+    height: 0px;
+}
+
+scrollbarvertical sliderarrowinc {
+    display: none;
+    width: 24px;
+    height: 0px;
+}

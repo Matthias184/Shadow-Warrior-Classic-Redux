@@ -1,0 +1,75 @@
+body {
+    font-family: Averia;
+    font-size: 24pt;
+    clip: auto;
+}
+
+div.title {
+    position: absolute;
+    font-family: "Gang of Three";
+    font-size: 70pt;
+    color: rgb(168,40,39);
+    left: 1087px;
+    top: 242px;
+}
+
+.game-menu div {
+    display: block;
+    text-align: left;
+    height: 32px;
+    color: rgb(102,102,102);
+    padding-left: 1087px;
+}
+
+.game-menu div.highlighted {
+    display: block;
+    text-align: left;
+    background-color: rgb(168,40,39);
+    color: white;
+}
+
+.game-menu div t {
+    position: relative;
+}
+
+.scrollbox {
+    display: block;
+    width:  100%;
+    height: 100%;
+    overflow-y: scroll;
+    -background: red;
+}
+
+.clipper {
+    position: absolute;
+    display: block;
+    width: 1764px;
+    left: 0px;
+    height: 384px;
+    top: 365px;
+}
+
+.game-menu div caption {
+    display: block;
+    position: absolute;
+    width: 50%;
+}
+
+title {
+    display: block;
+    position: absolute;
+    font-size: 79;
+    color: rgb(235,156,9);
+    left: 334px;
+    top: 63px;
+}
+
+
+div.listhdr {
+    color: black;
+    display: block;
+    text-align: left;
+    padding-top: 5px;
+    background-color: transparent;
+
+}

@@ -1,0 +1,81 @@
+<rml>
+<head>
+    <link type="text/css" href="menu.rcss"/>
+    <style>
+
+
+.clipper {
+    position: absolute;
+    display: block;
+    left: 333px;
+    width: 1200px;
+    height: 828px;
+    top:100px;
+}
+
+ h1 {
+    display: block;
+    color: rgb(235,156,9);
+    font-size: 40pt;
+    padding: 10px;
+}
+
+h2 {
+    display: block;
+    color: rgb(235,156,9);
+    font-size: 28px;
+    padding: 5px;
+}
+
+p {
+    display: block;
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-botton: 20px;
+}
+
+p n {
+    color: rgb(189,219,255);
+}
+
+body {
+    background: rgba(0,0,0,170);
+}
+
+    </style>
+    <title>Duke Nukem 3D</title>
+</head>
+
+<body id="menu-help">
+
+<div class="game-menu" style="top:400px;display:none;">
+    <div id="dummy">DUMMY</div> 
+</div>
+
+<div class="clipper">
+
+<h1>Duke Nukem 3D</h1>
+
+<p><n>"A babe, a stogie, and a bottle of Jack. That's what I need right now."</n></p>
+
+<p>Duke mused on his recent defeat of the Rigelatins, his voice raspy even in his thoughts.  After single-handedly saving Earth--again--he was ready for a long period of lying the hell down.</p>
+
+<p><n>"And no more freakin' aliens".</n></p>
+
+<p>Just then, a white-hot plasmatic blast punched through the hull of his cruiser. Klaxons flared, warning lights flashed, and static filled his monitors. He flipped on his comm.</p>
+
+<p><n>"Hey, anybody out there? I got a little probl..." Duke started.</n></p>
+
+<p><n>"Mayday! Mayday!"</n> the radio replied. <n>"Los Angeles is under attack! There are aliens everywhere, and they've mutated the LAPD. Is anyone there? We need help!--".</n>The transmission went silent.</p>
+
+<p><n>"Great,"</n> Duke grumbled as his careening ship missed a skyscraper. <n>"What's the problem with all these aliens attacking Earth anyway? How many alien races have to get their asses kicked"</n></p>
+
+<p>Duke slammed his fist into the waiting eject button.</p>
+
+<p><n>"I guess one more."</n></p>
+
+</div>
+
+</body>
+</rml>

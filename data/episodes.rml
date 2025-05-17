@@ -1,0 +1,17 @@
+<rml>
+<head>
+    <link type="text/css" href="common.rcss"/>
+    <link type="text/css" href="episodes.rcss"/>
+</head>
+
+<body id="menu-episodes">
+
+<div class="title">NEW GAME</div>
+
+<div class="game-menu bcf">
+    <div id="episode-0" submenu="menu-skill"><t>ENTER THE WANG</t></div>
+    <div id="episode-1" submenu="menu-skill"><t>CODE OF HONOR</t></div>
+</div>
+
+</body>
+</rml>

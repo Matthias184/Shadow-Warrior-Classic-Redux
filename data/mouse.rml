@@ -1,0 +1,57 @@
+<rml>
+<head>
+    <link type="text/css" href="common.rcss"/>
+    <link type="text/css" href="config.rcss"/>
+    <link type="text/css" href="mouse.rcss"/>
+    <title>MOUSE SETUP</title>
+</head>
+
+<body id="menu-mouse-setup">
+
+<div class="title">MOUSE SETUP</div>
+
+<div class="game-menu sf">
+
+    <div id="mouse-sens" range class="noarrows">
+    <t>
+        <caption>SENSITIVITY</caption>
+        <range min="0" max="1" step="0.05" value="0.0"/>
+    </t>
+    </div>
+
+    <div id="invert-y-axis" options class="noarrows">
+    <t>
+        <caption>INVERT Y AXIS</caption>
+        <options>
+            <option id="invert-y-on">ON</option>
+            <option id="invert-y-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="x-mouse-scale" range class="noarrows">
+    <t>
+        <caption>X AXIS SCALE</caption>
+        <range min="1" max="20" step="1" value="10"/>
+    </t>
+    </div>
+
+    <div id="y-mouse-scale" range class="noarrows">
+    <t>
+        <caption>Y AXIS SCALE</caption>
+        <range min="1" max="20" step="1" value="10"/>
+    </t>
+    </div>
+
+    <div id="lock-y-axis" options class="noarrows">
+    <t>
+        <caption>VERTICAL AIM</caption>
+        <options>
+            <option id="lock-y-on">OFF</option>
+            <option id="lock-y-off">ON</option>
+        </options>
+    </t>
+    </div>
+</div>
+</body>
+</rml>

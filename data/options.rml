@@ -1,0 +1,21 @@
+<rml>
+<head>
+    <link type="text/css" href="common.rcss"/>
+    <link type="text/css" href="options.rcss"/>
+</head>
+
+<body id="menu-options">
+
+<div class="title">OPTIONS</div>
+
+<div class="game-menu bcf">
+    <div id="game-options" submenu="menu-game-options"><t>GAME OPTIONS</t></div>
+    <div id="sound-options" submenu="menu-sound"><t>SOUND OPTIONS</t></div>
+    <div id="video-settings" submenu="menu-video"><t>VIDEO SETTINGS</t></div>
+    <div id="keys-setup" submenu="menu-keys-setup"><t>KEYS/BUTTONS SETUP</t></div>
+    <div id="mouse-setup" submenu="menu-mouse-setup"><t>MOUSE SETUP</t></div>
+    <div id="gamepad-setup" submenu="menu-gamepad-setup"><t>GAMEPAD SETUP</t></div>
+</div>
+
+</body>
+</rml>

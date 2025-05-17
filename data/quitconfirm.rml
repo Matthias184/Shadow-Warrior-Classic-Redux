@@ -1,0 +1,16 @@
+<rml>
+<head>
+    <link type="text/css" href="confirmation.rcss"/>
+</head>
+
+<body id="quit-confirm" closecmd="resume-game" default-item="no">
+
+<div class="game-menu">
+    <div id="yes" command="game-quit-immediately">YES</div>
+    <div id="no" command="resume-game">NO</div>
+</div>
+
+<div id="question">Quit Game?</div>
+
+</body>
+</rml>

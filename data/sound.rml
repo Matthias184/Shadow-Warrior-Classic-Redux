@@ -1,0 +1,51 @@
+<rml>
+<head>
+    <link type="text/css" href="common.rcss"/>
+    <link type="text/css" href="config.rcss"/>
+    <link type="text/css" href="sound.rcss"/>
+    <title>SOUNDS</title>
+</head>
+
+<body id="menu-sound">
+
+<div class="title">SOUND</div>
+
+<div class="game-menu sf">
+
+    <div id="sound-volume" range class="noarrows">
+    <t>
+        <caption>SOUND FX VOLUME</caption>
+        <range min="0" max="256" step="16" value="0"/>
+    </t>
+    </div>
+
+    <div id="music-volume" range class="noarrows">
+    <t>
+        <caption>MUSIC VOLUME</caption>
+        <range min="0" max="256" step="16" value="0"/>
+    </t>
+    </div>
+
+    <div id="sound" options class="noarrows">
+    <t>
+        <caption>SOUND FX</caption>
+        <options>
+            <option id="sound-on">ON</option>
+            <option id="sound-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="music" options class="noarrows">
+    <t>
+        <caption>MUSIC</caption>
+        <options>
+            <option id="music-on">ON</option>
+            <option id="music-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+</div>
+</body>
+</rml>

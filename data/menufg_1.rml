@@ -1,0 +1,24 @@
+<rml>
+<head>
+    <style>
+        body {
+            margin: auto;
+            font-size: 20pt;
+            font-family: Averia;
+            width: 960px;
+            height: 1080px;
+            left: 0px;
+            z-index: 1;
+        }
+        .abspos {
+            position: absolute;
+            display: block;
+        }
+    </style>
+</head>
+
+<body id="menu-fg">
+    <img src="assets/LeftBloodScreenWD.png" class="abspos" style="left:0px;top:0px;"/>
+    <img src="assets/LoWangWD.png" class="abspos" style="left:0px;top:0px;"/>
+</body>
+</rml>

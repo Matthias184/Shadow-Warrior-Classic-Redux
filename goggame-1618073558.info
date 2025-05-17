@@ -1,0 +1,32 @@
+{
+    "buildId": "50697788956033864", 
+    "clientId": "49297156052757720", 
+    "gameId": "1618073558", 
+    "language": "English", 
+    "languages": [
+        "en"
+    ], 
+    "name": "Shadow Warrior Classic Redux", 
+    "playTasks": [
+        {
+            "category": "game", 
+            "isPrimary": true, 
+            "languages": [
+                "*"
+            ], 
+            "name": "Shadow Warrior Classic Redux", 
+            "path": "swcr.exe", 
+            "type": "FileTask"
+        }, 
+        {
+            "languages": [
+                "en"
+            ], 
+            "link": "http://www.gog.com/support/shadow_warrior_classic_redux", 
+            "name": "Support", 
+            "type": "URLTask"
+        }
+    ], 
+    "rootGameId": "1618073558", 
+    "version": 1
+}

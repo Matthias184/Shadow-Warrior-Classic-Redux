@@ -1,0 +1,1287 @@
+
+// HUD Shuriken Throw (Unused?)
+tilefromtexture 2046 { file "tiles/2046.png" xoffset -85 yoffset 38 }
+
+// HUD Sword
+tilefromtexture 2080 { file "tiles/2080.png" xoffset 29 yoffset 103 }
+tilefromtexture 2081 { file "tiles/2081.png" xoffset -65 yoffset 129 }
+tilefromtexture 2082 { file "tiles/2082.png" xoffset 61 yoffset 135 }
+
+// HUD Shuriken Throw
+tilefromtexture 2133 { file "tiles/2133.png" xoffset 13 yoffset 38 }
+tilefromtexture 2134 { file "tiles/2134.png" xoffset -33 yoffset 56 }
+tilefromtexture 2135 { file "tiles/2133.png" xoffset -90 yoffset 56 }
+tilefromtexture 2136 { file "tiles/2133.png" xoffset -64 yoffset 32 }
+tilefromtexture 2137 { file "tiles/2133.png" xoffset -50 yoffset -2 }
+
+// HUD Dart Throw
+tilefromtexture 2513 { file "tiles/2133.png" xoffset 13 yoffset 38 }
+tilefromtexture 2514 { file "tiles/2134.png" xoffset -33 yoffset 56 }
+tilefromtexture 2515 { file "tiles/2133.png" xoffset -90 yoffset 56 }
+tilefromtexture 2516 { file "tiles/2133.png" xoffset -64 yoffset 32 }
+tilefromtexture 2517 { file "tiles/2133.png" xoffset -50 yoffset -2 }
+
+// HUD Riot Gun
+tilefromtexture 2211 { file "tiles/2211.png" xoffset -75 yoffset 35 }
+tilefromtexture 2212 { file "tiles/2212.png" xoffset -75 yoffset 35 }
+tilefromtexture 2213 { file "tiles/2213.png" xoffset -75 yoffset 35 }
+tilefromtexture 2214 { file "tiles/2214.png" xoffset -75 yoffset 42 }
+tilefromtexture 2215 { file "tiles/2215.png" xoffset -75 yoffset 43 }
+tilefromtexture 2216 { file "tiles/2216.png" xoffset -75 yoffset 33 }
+
+// HUD Riot Gun (continued)
+tilefromtexture 2225 { file "tiles/2225.png" xoffset -75 yoffset 32 }
+tilefromtexture 2226 { file "tiles/2226.png" xoffset -75 yoffset 32 }
+tilefromtexture 2227 { file "tiles/2227.png" xoffset -75 yoffset 32 }
+
+// HUD Sword (Bloody)
+tilefromtexture 4090 { file "tiles/4090.png" xoffset 30 yoffset 107 }
+tilefromtexture 4091 { file "tiles/4091.png" xoffset -66 yoffset 128 }
+tilefromtexture 4092 { file "tiles/4092.png" xoffset 60 yoffset 135 }
+
+// HUD Title Screen (2324)
+tilefromtexture 9400 { file "tiles/9400.png" }
+
+// HUD Status Bar (2434)
+tilefromtexture 9401 { file "tiles/9401.png" }
+
+
+texture 2380 { pal 0 { file "hires/compass_space.png" } }
+texture 2381 { pal 0 { file "hires/compass_space.png" } }
+texture 2382 { pal 0 { file "hires/compass_nl.png" } }
+texture 2383 { pal 0 { file "hires/compass_nr.png" } }
+texture 2384 { pal 0 { file "hires/compass_sl.png" } }
+texture 2385 { pal 0 { file "hires/compass_sr.png" } }
+texture 2386 { pal 0 { file "hires/compass_el.png" } }
+texture 2387 { pal 0 { file "hires/compass_er.png" } }
+texture 2388 { pal 0 { file "hires/compass_wl.png" } }
+texture 2389 { pal 0 { file "hires/compass_wr.png" } }
+texture 2390 { pal 0 { file "hires/compass_space.png" } }
+texture 2391 { pal 0 { file "hires/compass_space.png" } }
+texture 2392 { pal 0 { file "hires/card_red.png" } }
+texture 2393 { pal 0 { file "hires/card_green.png" } }
+texture 2394 { pal 0 { file "hires/card_blue.png" } }
+texture 2395 { pal 0 { file "hires/card_yellow.png" } }
+texture 2396 { pal 0 { file "hires/inv_medkit.png" } }
+texture 2397 { pal 0 { file "hires/inv_smoke.png" } }
+texture 2398 { pal 0 { file "hires/inv_nvision.png" } }
+texture 2399 { pal 0 { file "hires/inv_tools.png" } }
+texture 2407 { pal 0 { file "hires/inv_gas.png" } }
+texture 2408 { pal 0 { file "hires/inv_flash.png" } }
+texture 2409 { pal 0 { file "hires/inv_calt.png" } }
+texture 2435 { pal 0 { file "hires/inv_select.png" } }
+texture 2437 { pal 0 { file "hires/hudborder_short.png" } }
+texture 2438 { pal 0 { file "hires/hudborder_long.png" } }
+texture 2448 { pal 0 { file "hires/key_gold.png" } }
+texture 2449 { pal 0 { file "hires/key_silver.png" } }
+texture 2458 { pal 0 { file "hires/key_bronze.png" } }
+texture 2459 { pal 0 { file "hires/key_red.png" } }
+texture 2930 {
+ pal 0 { file "hires/sysfont_!_blue.png" }
+ pal 16 { file "hires/sysfont_!_bronze.png" }
+ pal 17 { file "hires/sysfont_!_grey.png" }
+}
+texture 2931 {
+ pal 0 { file "hires/sysfont_dbl'_blue.png" }
+ pal 16 { file "hires/sysfont_dbl'_bronze.png" }
+ pal 17 { file "hires/sysfont_dbl'_grey.png" }
+}
+texture 2932 {
+ pal 0 { file "hires/sysfont_#_blue.png" }
+ pal 16 { file "hires/sysfont_#_bronze.png" }
+ pal 17 { file "hires/sysfont_#_grey.png" }
+}
+texture 2933 {
+ pal 0 { file "hires/sysfont_$_blue.png" }
+ pal 16 { file "hires/sysfont_$_bronze.png" }
+ pal 17 { file "hires/sysfont_$_grey.png" }
+}
+texture 2934 {
+ pal 0 { file "hires/sysfont_%_blue.png" }
+ pal 16 { file "hires/sysfont_%_bronze.png" }
+ pal 17 { file "hires/sysfont_%_grey.png" }
+}
+texture 2935 {
+ pal 0 { file "hires/sysfont_cnt_blue.png" }
+ pal 16 { file "hires/sysfont_cnt_bronze.png" }
+ pal 17 { file "hires/sysfont_cnt_grey.png" }
+}
+texture 2936 {
+ pal 0 { file "hires/sysfont_'_blue.png" }
+ pal 16 { file "hires/sysfont_'_bronze.png" }
+ pal 17 { file "hires/sysfont_'_grey.png" }
+}
+texture 2937 {
+ pal 0 { file "hires/sysfont_(_blue.png" }
+ pal 16 { file "hires/sysfont_(_bronze.png" }
+ pal 17 { file "hires/sysfont_(_grey.png" }
+}
+texture 2938 {
+ pal 0 { file "hires/sysfont_)_blue.png" }
+ pal 16 { file "hires/sysfont_)_bronze.png" }
+ pal 17 { file "hires/sysfont_)_grey.png" }
+}
+texture 2939 {
+ pal 0 { file "hires/sysfont_Str_blue.png" }
+ pal 16 { file "hires/sysfont_Str_bronze.png" }
+ pal 17 { file "hires/sysfont_Str_grey.png" }
+}
+texture 2940 {
+ pal 0 { file "hires/sysfont_+_blue.png" }
+ pal 16 { file "hires/sysfont_+_bronze.png" }
+ pal 17 { file "hires/sysfont_+_grey.png" }
+}
+texture 2941 {
+ pal 0 { file "hires/sysfont_,_blue.png" }
+ pal 16 { file "hires/sysfont_,_bronze.png" }
+ pal 17 { file "hires/sysfont_,_grey.png" }
+}
+texture 2942 {
+ pal 0 { file "hires/sysfont_-_blue.png" }
+ pal 16 { file "hires/sysfont_-_bronze.png" }
+ pal 17 { file "hires/sysfont_-_grey.png" }
+}
+texture 2943 {
+ pal 0 { file "hires/sysfont_dot_blue.png" }
+ pal 16 { file "hires/sysfont_dot_bronze.png" }
+ pal 17 { file "hires/sysfont_dot_grey.png" }
+}
+texture 2944 {
+ pal 0 { file "hires/sysfont_Sl_blue.png" }
+ pal 16 { file "hires/sysfont_Sl_bronze.png" }
+ pal 17 { file "hires/sysfont_Sl_grey.png" }
+}
+texture 2945 {
+ pal 0 { file "hires/sysfont_0_blue.png" }
+ pal 16 { file "hires/sysfont_0_bronze.png" }
+ pal 17 { file "hires/sysfont_0_grey.png" }
+}
+texture 2946 {
+ pal 0 { file "hires/sysfont_1_blue.png" }
+ pal 16 { file "hires/sysfont_1_bronze.png" }
+ pal 17 { file "hires/sysfont_1_grey.png" }
+}
+texture 2947 {
+ pal 0 { file "hires/sysfont_2_blue.png" }
+ pal 16 { file "hires/sysfont_2_bronze.png" }
+ pal 17 { file "hires/sysfont_2_grey.png" }
+}
+texture 2948 {
+ pal 0 { file "hires/sysfont_3_blue.png" }
+ pal 16 { file "hires/sysfont_3_bronze.png" }
+ pal 17 { file "hires/sysfont_3_grey.png" }
+}
+texture 2949 {
+ pal 0 { file "hires/sysfont_4_blue.png" }
+ pal 16 { file "hires/sysfont_4_bronze.png" }
+ pal 17 { file "hires/sysfont_4_grey.png" }
+}
+texture 2950 {
+ pal 0 { file "hires/sysfont_5_blue.png" }
+ pal 16 { file "hires/sysfont_5_bronze.png" }
+ pal 17 { file "hires/sysfont_5_grey.png" }
+}
+texture 2951 {
+ pal 0 { file "hires/sysfont_6_blue.png" }
+ pal 16 { file "hires/sysfont_6_bronze.png" }
+ pal 17 { file "hires/sysfont_6_grey.png" }
+}
+texture 2952 {
+ pal 0 { file "hires/sysfont_7_blue.png" }
+ pal 16 { file "hires/sysfont_7_bronze.png" }
+ pal 17 { file "hires/sysfont_7_grey.png" }
+}
+texture 2953 {
+ pal 0 { file "hires/sysfont_8_blue.png" }
+ pal 16 { file "hires/sysfont_8_bronze.png" }
+ pal 17 { file "hires/sysfont_8_grey.png" }
+}
+texture 2954 {
+ pal 0 { file "hires/sysfont_9_blue.png" }
+ pal 16 { file "hires/sysfont_9_bronze.png" }
+ pal 17 { file "hires/sysfont_9_grey.png" }
+}
+texture 2955 {
+ pal 0 { file "hires/sysfont_Dd_blue.png" }
+ pal 16 { file "hires/sysfont_Dd_bronze.png" }
+ pal 17 { file "hires/sysfont_Dd_grey.png" }
+}
+texture 2956 {
+ pal 0 { file "hires/sysfont_;_blue.png" }
+ pal 16 { file "hires/sysfont_;_bronze.png" }
+ pal 17 { file "hires/sysfont_;_grey.png" }
+}
+texture 2957 {
+ pal 0 { file "hires/sysfont_arrL_blue.png" }
+ pal 16 { file "hires/sysfont_arrL_bronze.png" }
+ pal 17 { file "hires/sysfont_arrL_grey.png" }
+}
+texture 2958 {
+ pal 0 { file "hires/sysfont_=_blue.png" }
+ pal 16 { file "hires/sysfont_=_bronze.png" }
+ pal 17 { file "hires/sysfont_=_grey.png" }
+}
+texture 2959 {
+ pal 0 { file "hires/sysfont_arrR_blue.png" }
+ pal 16 { file "hires/sysfont_arrR_bronze.png" }
+ pal 17 { file "hires/sysfont_arrR_grey.png" }
+}
+texture 2960 {
+ pal 0 { file "hires/sysfont_qst_blue.png" }
+ pal 16 { file "hires/sysfont_qst_bronze.png" }
+ pal 17 { file "hires/sysfont_qst_grey.png" }
+}
+texture 2961 {
+ pal 0 { file "hires/sysfont_@_blue.png" }
+ pal 16 { file "hires/sysfont_@_bronze.png" }
+ pal 17 { file "hires/sysfont_@_grey.png" }
+}
+texture 2962 {
+ pal 0 { file "hires/sysfont_A_blue.png" }
+ pal 16 { file "hires/sysfont_A_bronze.png" }
+ pal 17 { file "hires/sysfont_A_grey.png" }
+}
+texture 2963 {
+ pal 0 { file "hires/sysfont_B_blue.png" }
+ pal 16 { file "hires/sysfont_B_bronze.png" }
+ pal 17 { file "hires/sysfont_B_grey.png" }
+}
+texture 2964 {
+ pal 0 { file "hires/sysfont_C_blue.png" }
+ pal 16 { file "hires/sysfont_C_bronze.png" }
+ pal 17 { file "hires/sysfont_C_grey.png" }
+}
+texture 2965 {
+ pal 0 { file "hires/sysfont_D_blue.png" }
+ pal 16 { file "hires/sysfont_D_bronze.png" }
+ pal 17 { file "hires/sysfont_D_grey.png" }
+}
+texture 2966 {
+ pal 0 { file "hires/sysfont_E_blue.png" }
+ pal 16 { file "hires/sysfont_E_bronze.png" }
+ pal 17 { file "hires/sysfont_E_grey.png" }
+}
+texture 2967 {
+ pal 0 { file "hires/sysfont_F_blue.png" }
+ pal 16 { file "hires/sysfont_F_bronze.png" }
+ pal 17 { file "hires/sysfont_F_grey.png" }
+}
+texture 2968 {
+ pal 0 { file "hires/sysfont_G_blue.png" }
+ pal 16 { file "hires/sysfont_G_bronze.png" }
+ pal 17 { file "hires/sysfont_G_grey.png" }
+}
+texture 2969 {
+ pal 0 { file "hires/sysfont_H_blue.png" }
+ pal 16 { file "hires/sysfont_H_bronze.png" }
+ pal 17 { file "hires/sysfont_H_grey.png" }
+}
+texture 2970 {
+ pal 0 { file "hires/sysfont_I_blue.png" }
+ pal 16 { file "hires/sysfont_I_bronze.png" }
+ pal 17 { file "hires/sysfont_I_grey.png" }
+}
+texture 2971 {
+ pal 0 { file "hires/sysfont_J_blue.png" }
+ pal 16 { file "hires/sysfont_J_bronze.png" }
+ pal 17 { file "hires/sysfont_J_grey.png" }
+}
+texture 2972 {
+ pal 0 { file "hires/sysfont_K_blue.png" }
+ pal 16 { file "hires/sysfont_K_bronze.png" }
+ pal 17 { file "hires/sysfont_K_grey.png" }
+}
+texture 2973 {
+ pal 0 { file "hires/sysfont_L_blue.png" }
+ pal 16 { file "hires/sysfont_L_bronze.png" }
+ pal 17 { file "hires/sysfont_L_grey.png" }
+}
+texture 2974 {
+ pal 0 { file "hires/sysfont_M_blue.png" }
+ pal 16 { file "hires/sysfont_M_bronze.png" }
+ pal 17 { file "hires/sysfont_M_grey.png" }
+}
+texture 2975 {
+ pal 0 { file "hires/sysfont_N_blue.png" }
+ pal 16 { file "hires/sysfont_N_bronze.png" }
+ pal 17 { file "hires/sysfont_N_grey.png" }
+}
+texture 2976 {
+ pal 0 { file "hires/sysfont_O_blue.png" }
+ pal 16 { file "hires/sysfont_O_bronze.png" }
+ pal 17 { file "hires/sysfont_O_grey.png" }
+}
+texture 2977 {
+ pal 0 { file "hires/sysfont_P_blue.png" }
+ pal 16 { file "hires/sysfont_P_bronze.png" }
+ pal 17 { file "hires/sysfont_P_grey.png" }
+}
+texture 2978 {
+ pal 0 { file "hires/sysfont_Q_blue.png" }
+ pal 16 { file "hires/sysfont_Q_bronze.png" }
+ pal 17 { file "hires/sysfont_Q_grey.png" }
+}
+texture 2979 {
+ pal 0 { file "hires/sysfont_R_blue.png" }
+ pal 16 { file "hires/sysfont_R_bronze.png" }
+ pal 17 { file "hires/sysfont_R_grey.png" }
+}
+texture 2980 {
+ pal 0 { file "hires/sysfont_S_blue.png" }
+ pal 16 { file "hires/sysfont_S_bronze.png" }
+ pal 17 { file "hires/sysfont_S_grey.png" }
+}
+texture 2981 {
+ pal 0 { file "hires/sysfont_T_blue.png" }
+ pal 16 { file "hires/sysfont_T_bronze.png" }
+ pal 17 { file "hires/sysfont_T_grey.png" }
+}
+texture 2982 {
+ pal 0 { file "hires/sysfont_U_blue.png" }
+ pal 16 { file "hires/sysfont_U_bronze.png" }
+ pal 17 { file "hires/sysfont_U_grey.png" }
+}
+texture 2983 {
+ pal 0 { file "hires/sysfont_V_blue.png" }
+ pal 16 { file "hires/sysfont_V_bronze.png" }
+ pal 17 { file "hires/sysfont_V_grey.png" }
+}
+texture 2984 {
+ pal 0 { file "hires/sysfont_W_blue.png" }
+ pal 16 { file "hires/sysfont_W_bronze.png" }
+ pal 17 { file "hires/sysfont_W_grey.png" }
+}
+texture 2985 {
+ pal 0 { file "hires/sysfont_X_blue.png" }
+ pal 16 { file "hires/sysfont_X_bronze.png" }
+ pal 17 { file "hires/sysfont_X_grey.png" }
+}
+texture 2986 {
+ pal 0 { file "hires/sysfont_Y_blue.png" }
+ pal 16 { file "hires/sysfont_Y_bronze.png" }
+ pal 17 { file "hires/sysfont_Y_grey.png" }
+}
+texture 2987 {
+ pal 0 { file "hires/sysfont_Z_blue.png" }
+ pal 16 { file "hires/sysfont_Z_bronze.png" }
+ pal 17 { file "hires/sysfont_Z_grey.png" }
+}
+texture 2988 {
+ pal 0 { file "hires/sysfont_[_blue.png" }
+ pal 16 { file "hires/sysfont_[_bronze.png" }
+ pal 17 { file "hires/sysfont_[_grey.png" }
+}
+texture 2989 {
+ pal 0 { file "hires/sysfont_bksl_blue.png" }
+ pal 16 { file "hires/sysfont_bksl_bronze.png" }
+ pal 17 { file "hires/sysfont_bksl_grey.png" }
+}
+texture 2990 {
+ pal 0 { file "hires/sysfont_]_blue.png" }
+ pal 16 { file "hires/sysfont_]_bronze.png" }
+ pal 17 { file "hires/sysfont_]_grey.png" }
+}
+texture 2991 {
+ pal 0 { file "hires/sysfont_home_blue.png" }
+ pal 16 { file "hires/sysfont_home_bronze.png" }
+ pal 17 { file "hires/sysfont_home_grey.png" }
+}
+texture 2992 {
+ pal 0 { file "hires/sysfont___blue.png" }
+ pal 16 { file "hires/sysfont___bronze.png" }
+ pal 17 { file "hires/sysfont___grey.png" }
+}
+texture 2993 {
+ pal 0 { file "hires/sysfont_'_blue.png" }
+ pal 16 { file "hires/sysfont_'_bronze.png" }
+ pal 17 { file "hires/sysfont_'_grey.png" }
+}
+texture 2994 {
+ pal 0 { file "hires/sysfontsm_a_blue.png" }
+ pal 16 { file "hires/sysfontsm_a_bronze.png" }
+ pal 17 { file "hires/sysfontsm_a_grey.png" }
+}
+texture 2995 {
+ pal 0 { file "hires/sysfontsm_b_blue.png" }
+ pal 16 { file "hires/sysfontsm_b_bronze.png" }
+ pal 17 { file "hires/sysfontsm_b_grey.png" }
+}
+texture 2996 {
+ pal 0 { file "hires/sysfontsm_c_blue.png" }
+ pal 16 { file "hires/sysfontsm_c_bronze.png" }
+ pal 17 { file "hires/sysfontsm_c_grey.png" }
+}
+texture 2997 {
+ pal 0 { file "hires/sysfontsm_d_blue.png" }
+ pal 16 { file "hires/sysfontsm_d_bronze.png" }
+ pal 17 { file "hires/sysfontsm_d_grey.png" }
+}
+texture 2998 {
+ pal 0 { file "hires/sysfontsm_e_blue.png" }
+ pal 16 { file "hires/sysfontsm_e_bronze.png" }
+ pal 17 { file "hires/sysfontsm_e_grey.png" }
+}
+texture 2999 {	
+ pal 0 { file "hires/sysfontsm_f_blue.png" }
+ pal 16 { file "hires/sysfontsm_f_bronze.png" }
+ pal 17 { file "hires/sysfontsm_f_grey.png" }
+}
+texture 3000 {
+ pal 0 { file "hires/sysfontsm_g_blue.png" }
+ pal 16 { file "hires/sysfontsm_g_bronze.png" }
+ pal 17 { file "hires/sysfontsm_g_grey.png" }
+}
+texture 3001 {
+ pal 0 { file "hires/sysfontsm_h_blue.png" }
+ pal 16 { file "hires/sysfontsm_h_bronze.png" }
+ pal 17 { file "hires/sysfontsm_h_grey.png" }
+}
+texture 3002 {
+ pal 0 { file "hires/sysfontsm_i_blue.png" }
+ pal 16 { file "hires/sysfontsm_i_bronze.png" }
+ pal 17 { file "hires/sysfontsm_i_grey.png" }
+}
+texture 3003 {
+ pal 0 { file "hires/sysfontsm_j_blue.png" }
+ pal 16 { file "hires/sysfontsm_j_bronze.png" }
+ pal 17 { file "hires/sysfontsm_j_grey.png" }
+}
+texture 3004 {
+ pal 0 { file "hires/sysfontsm_k_blue.png" }
+ pal 16 { file "hires/sysfontsm_k_bronze.png" }
+ pal 17 { file "hires/sysfontsm_k_grey.png" }
+}
+texture 3005 {
+ pal 0 { file "hires/sysfontsm_l_blue.png" }
+ pal 16 { file "hires/sysfontsm_l_bronze.png" }
+ pal 17 { file "hires/sysfontsm_l_grey.png" }
+}
+texture 3006 {
+ pal 0 { file "hires/sysfontsm_m_blue.png" }
+ pal 16 { file "hires/sysfontsm_m_bronze.png" }
+ pal 17 { file "hires/sysfontsm_m_grey.png" }
+}
+texture 3007 {
+ pal 0 { file "hires/sysfontsm_n_blue.png" }
+ pal 16 { file "hires/sysfontsm_n_bronze.png" }
+ pal 17 { file "hires/sysfontsm_n_grey.png" }
+}
+texture 3008 {
+ pal 0 { file "hires/sysfontsm_o_blue.png" }
+ pal 16 { file "hires/sysfontsm_o_bronze.png" }
+ pal 17 { file "hires/sysfontsm_o_grey.png" }
+}
+texture 3009 {
+ pal 0 { file "hires/sysfontsm_p_blue.png" }
+ pal 16 { file "hires/sysfontsm_p_bronze.png" }
+ pal 17 { file "hires/sysfontsm_p_grey.png" }
+}
+texture 3010 {
+ pal 0 { file "hires/sysfontsm_q_blue.png" }
+ pal 16 { file "hires/sysfontsm_q_bronze.png" }
+ pal 17 { file "hires/sysfontsm_q_grey.png" }
+}
+texture 3011 {
+ pal 0 { file "hires/sysfontsm_r_blue.png" }
+ pal 16 { file "hires/sysfontsm_r_bronze.png" }
+ pal 17 { file "hires/sysfontsm_r_grey.png" }
+}
+texture 3012 {
+ pal 0 { file "hires/sysfontsm_s_blue.png" }
+ pal 16 { file "hires/sysfontsm_s_bronze.png" }
+ pal 17 { file "hires/sysfontsm_s_grey.png" }
+}
+texture 3013 {
+ pal 0 { file "hires/sysfontsm_t_blue.png" }
+ pal 16 { file "hires/sysfontsm_t_bronze.png" }
+ pal 17 { file "hires/sysfontsm_t_grey.png" }
+}
+texture 3014 {
+ pal 0 { file "hires/sysfontsm_u_blue.png" }
+ pal 16 { file "hires/sysfontsm_u_bronze.png" }
+ pal 17 { file "hires/sysfontsm_u_grey.png" }
+}
+texture 3015 {
+ pal 0 { file "hires/sysfontsm_v_blue.png" }
+ pal 16 { file "hires/sysfontsm_v_bronze.png" }
+ pal 17 { file "hires/sysfontsm_v_grey.png" }
+}
+texture 3016 {
+ pal 0 { file "hires/sysfontsm_w_blue.png" }
+ pal 16 { file "hires/sysfontsm_w_bronze.png" }
+ pal 17 { file "hires/sysfontsm_w_grey.png" }
+}
+texture 3017 {
+ pal 0 { file "hires/sysfontsm_x_blue.png" }
+ pal 16 { file "hires/sysfontsm_x_bronze.png" }
+ pal 17 { file "hires/sysfontsm_x_grey.png" }
+}
+texture 3018 {
+ pal 0 { file "hires/sysfontsm_y_blue.png" }
+ pal 16 { file "hires/sysfontsm_y_bronze.png" }
+ pal 17 { file "hires/sysfontsm_y_grey.png" }
+}
+texture 3019 {
+ pal 0 { file "hires/sysfontsm_z_blue.png" }
+ pal 16 { file "hires/sysfontsm_z_bronze.png" }
+ pal 17 { file "hires/sysfontsm_z_grey.png" }
+}
+texture 3020 {
+ pal 0 { file "hires/sysfont_(_blue.png" }
+ pal 16 { file "hires/sysfont_(_bronze.png" }
+ pal 17 { file "hires/sysfont_(_grey.png" }
+}
+texture 3021 {
+ pal 0 { file "hires/sysfont_vrline_blue.png" }
+ pal 16 { file "hires/sysfont_vrline_bronze.png" }
+ pal 17 { file "hires/sysfont_vrline_grey.png" }
+}
+texture 3022 {
+ pal 0 { file "hires/sysfont_)_blue.png" }
+ pal 16 { file "hires/sysfont_)_bronze.png" }
+ pal 17 { file "hires/sysfont_)_grey.png" }
+}
+texture 3023 {
+ pal 0 { file "hires/sysfont_~_blue.png" }
+ pal 16 { file "hires/sysfont_~_bronze.png" }
+ pal 17 { file "hires/sysfont_~_grey.png" }
+}
+texture 3600 { pal 0 { file "hires/hudfont_sl_green.png" } }
+texture 3601 { pal 0 { file "hires/hudfont_0_green.png" } }
+texture 3602 { pal 0 { file "hires/hudfont_1_green.png" } }
+texture 3603 { pal 0 { file "hires/hudfont_2_green.png" } }
+texture 3604 { pal 0 { file "hires/hudfont_3_green.png" } }
+texture 3605 { pal 0 { file "hires/hudfont_4_green.png" } }
+texture 3606 { pal 0 { file "hires/hudfont_5_green.png" } }
+texture 3607 { pal 0 { file "hires/hudfont_6_green.png" } }
+texture 3608 { pal 0 { file "hires/hudfont_7_green.png" } }
+texture 3609 { pal 0 { file "hires/hudfont_8_green.png" } }
+texture 3610 { pal 0 { file "hires/hudfont_9_green.png" } }
+texture 3611 { pal 0 { file "hires/hudfont_dd_green.png" } }
+texture 3612 { pal 0 { file "hires/hudfont_sl_yellow.png" } }
+texture 3613 { pal 0 { file "hires/hudfont_0_yellow.png" } }
+texture 3614 { pal 0 { file "hires/hudfont_1_yellow.png" } }
+texture 3615 { pal 0 { file "hires/hudfont_2_yellow.png" } }
+texture 3616 { pal 0 { file "hires/hudfont_3_yellow.png" } }
+texture 3617 { pal 0 { file "hires/hudfont_4_yellow.png" } }
+texture 3618 { pal 0 { file "hires/hudfont_5_yellow.png" } }
+texture 3619 { pal 0 { file "hires/hudfont_6_yellow.png" } }
+texture 3620 { pal 0 { file "hires/hudfont_7_yellow.png" } }
+texture 3621 { pal 0 { file "hires/hudfont_8_yellow.png" } }
+texture 3622 { pal 0 { file "hires/hudfont_9_yellow.png" } }
+texture 3623 { pal 0 { file "hires/hudfont_dd_yellow.png" } }
+texture 3624 { pal 0 { file "hires/hudfont_sl_red.png" } }
+texture 3625 { pal 0 { file "hires/hudfont_0_red.png" } }
+texture 3626 { pal 0 { file "hires/hudfont_1_red.png" } }
+texture 3627 { pal 0 { file "hires/hudfont_2_red.png" } }
+texture 3628 { pal 0 { file "hires/hudfont_3_red.png" } }
+texture 3629 { pal 0 { file "hires/hudfont_4_red.png" } }
+texture 3630 { pal 0 { file "hires/hudfont_5_red.png" } }
+texture 3631 { pal 0 { file "hires/hudfont_6_red.png" } }
+texture 3632 { pal 0 { file "hires/hudfont_7_red.png" } }
+texture 3633 { pal 0 { file "hires/hudfont_8_red.png" } }
+texture 3634 { pal 0 { file "hires/hudfont_9_red.png" } }
+texture 3635 { pal 0 { file "hires/hudfont_dd_red.png" } }
+texture 3636 { pal 0 { file "hires/hudnum0.png" } }
+texture 3637 { pal 0 { file "hires/hudnum1.png" } }
+texture 3638 { pal 0 { file "hires/hudnum2.png" } }
+texture 3639 { pal 0 { file "hires/hudnum3.png" } }
+texture 3640 { pal 0 { file "hires/hudnum4.png" } }
+texture 3641 { pal 0 { file "hires/hudnum5.png" } }
+texture 3642 { pal 0 { file "hires/hudnum6.png" } }
+texture 3643 { pal 0 { file "hires/hudnum7.png" } }
+texture 3644 { pal 0 { file "hires/hudnum8.png" } }
+texture 3645 { pal 0 { file "hires/hudnum9.png" } }
+texture 4608 {
+ pal 0 { file "hires/msgfnt_!_blue.png" }
+ pal 16 { file "hires/msgfnt_!_bronze.png" }
+ pal 19 { file "hires/msgfnt_!_red.png" }
+ pal 25 { file "hires/msgfnt_!_red.png" }
+ pal 30 { file "hires/msgfnt_!_red.png" }
+}
+texture 4609 {
+ pal 0 { file "hires/msgfnt_qm_blue.png" }
+ pal 16 { file "hires/msgfnt_qm_bronze.png" }
+ pal 19 { file "hires/msgfnt_qm_red.png" }
+ pal 25 { file "hires/msgfnt_qm_red.png" }
+ pal 30 { file "hires/msgfnt_qm_red.png" }
+}
+texture 4610 {
+ pal 0 { file "hires/msgfnt_#_blue.png" }
+ pal 16 { file "hires/msgfnt_#_bronze.png" }
+ pal 19 { file "hires/msgfnt_#_red.png" }
+ pal 25 { file "hires/msgfnt_#_red.png" }
+ pal 30 { file "hires/msgfnt_#_red.png" }
+}
+texture 4611 {
+ pal 0 { file "hires/msgfnt_$_blue.png" }
+ pal 16 { file "hires/msgfnt_$_bronze.png" }
+ pal 19 { file "hires/msgfnt_$_red.png" }
+ pal 25 { file "hires/msgfnt_$_red.png" }
+ pal 30 { file "hires/msgfnt_$_red.png" }
+}
+texture 4612 {
+ pal 0 { file "hires/msgfnt_%_blue.png" }
+ pal 16 { file "hires/msgfnt_%_bronze.png" }
+ pal 19 { file "hires/msgfnt_%_red.png" }
+ pal 25 { file "hires/msgfnt_%_red.png" }
+ pal 30 { file "hires/msgfnt_%_red.png" }
+}
+texture 4613 {
+ pal 0 { file "hires/msgfnt_&_blue.png" }
+ pal 16 { file "hires/msgfnt_&_bronze.png" }
+ pal 19 { file "hires/msgfnt_&_red.png" }
+ pal 25 { file "hires/msgfnt_&_red.png" }
+ pal 30 { file "hires/msgfnt_&_red.png" }
+}
+texture 4614 {
+ pal 0 { file "hires/msgfnt_ap_blue.png" }
+ pal 16 { file "hires/msgfnt_ap_bronze.png" }
+ pal 19 { file "hires/msgfnt_ap_red.png" }
+ pal 25 { file "hires/msgfnt_ap_red.png" }
+ pal 30 { file "hires/msgfnt_ap_red.png" }
+}
+texture 4615 {
+ pal 0 { file "hires/msgfnt_(_blue.png" }
+ pal 16 { file "hires/msgfnt_(_bronze.png" }
+ pal 19 { file "hires/msgfnt_(_red.png" }
+ pal 25 { file "hires/msgfnt_(_red.png" }
+ pal 30 { file "hires/msgfnt_(_red.png" }
+}
+texture 4616 {
+ pal 0 { file "hires/msgfnt_)_blue.png" }
+ pal 16 { file "hires/msgfnt_)_bronze.png" }
+ pal 19 { file "hires/msgfnt_)_red.png" }
+ pal 25 { file "hires/msgfnt_)_red.png" }
+ pal 30 { file "hires/msgfnt_)_red.png" }
+}
+texture 4617 {
+ pal 0 { file "hires/msgfnt_st_blue.png" }
+ pal 16 { file "hires/msgfnt_st_bronze.png" }
+ pal 19 { file "hires/msgfnt_st_red.png" }
+ pal 25 { file "hires/msgfnt_st_red.png" }
+ pal 30 { file "hires/msgfnt_st_red.png" }
+}
+texture 4618 {
+ pal 0 { file "hires/msgfnt_+_blue.png" }
+ pal 16 { file "hires/msgfnt_+_bronze.png" }
+ pal 19 { file "hires/msgfnt_+_red.png" }
+ pal 25 { file "hires/msgfnt_+_red.png" }
+ pal 30 { file "hires/msgfnt_+_red.png" }
+}
+texture 4619 {
+ pal 0 { file "hires/msgfnt_,_blue.png" }
+ pal 16 { file "hires/msgfnt_,_bronze.png" }
+ pal 19 { file "hires/msgfnt_,_red.png" }
+ pal 25 { file "hires/msgfnt_,_red.png" }
+ pal 30 { file "hires/msgfnt_,_red.png" }
+}
+texture 4620 {
+ pal 0 { file "hires/msgfnt_-_blue.png" }
+ pal 16 { file "hires/msgfnt_-_bronze.png" }
+ pal 19 { file "hires/msgfnt_-_red.png" }
+ pal 25 { file "hires/msgfnt_-_red.png" }
+ pal 30 { file "hires/msgfnt_-_red.png" }
+}
+texture 4621 {
+ pal 0 { file "hires/msgfnt_._blue.png" }
+ pal 16 { file "hires/msgfnt_._bronze.png" }
+ pal 19 { file "hires/msgfnt_._red.png" }
+ pal 25 { file "hires/msgfnt_._red.png" }
+ pal 30 { file "hires/msgfnt_._red.png" }
+}
+texture 4622 {
+ pal 0 { file "hires/msgfnt_sl_blue.png" }
+ pal 16 { file "hires/msgfnt_sl_bronze.png" }
+ pal 19 { file "hires/msgfnt_sl_red.png" }
+ pal 25 { file "hires/msgfnt_sl_red.png" }
+ pal 30 { file "hires/msgfnt_sl_red.png" }
+}
+texture 4623 {
+ pal 0 { file "hires/msgfnt_0_blue.png" }
+ pal 16 { file "hires/msgfnt_0_bronze.png" }
+ pal 19 { file "hires/msgfnt_0_red.png" }
+ pal 25 { file "hires/msgfnt_0_red.png" }
+ pal 30 { file "hires/msgfnt_0_red.png" }
+}
+texture 4624 {
+ pal 0 { file "hires/msgfnt_1_blue.png" }
+ pal 16 { file "hires/msgfnt_1_bronze.png" }
+ pal 19 { file "hires/msgfnt_1_red.png" }
+ pal 25 { file "hires/msgfnt_1_red.png" }
+ pal 30 { file "hires/msgfnt_1_red.png" }
+}
+texture 4625 {
+ pal 0 { file "hires/msgfnt_2_blue.png" }
+ pal 16 { file "hires/msgfnt_2_bronze.png" }
+ pal 19 { file "hires/msgfnt_2_red.png" }
+ pal 25 { file "hires/msgfnt_2_red.png" }
+ pal 30 { file "hires/msgfnt_2_red.png" }
+}
+texture 4626 {
+ pal 0 { file "hires/msgfnt_3_blue.png" }
+ pal 16 { file "hires/msgfnt_3_bronze.png" }
+ pal 19 { file "hires/msgfnt_3_red.png" }
+ pal 25 { file "hires/msgfnt_3_red.png" }
+ pal 30 { file "hires/msgfnt_3_red.png" }
+}
+texture 4627 {
+ pal 0 { file "hires/msgfnt_4_blue.png" }
+ pal 16 { file "hires/msgfnt_4_bronze.png" }
+ pal 19 { file "hires/msgfnt_4_red.png" }
+ pal 25 { file "hires/msgfnt_4_red.png" }
+ pal 30 { file "hires/msgfnt_4_red.png" }
+}
+texture 4628 {
+ pal 0 { file "hires/msgfnt_5_blue.png" }
+ pal 16 { file "hires/msgfnt_5_bronze.png" }
+ pal 19 { file "hires/msgfnt_5_red.png" }
+ pal 25 { file "hires/msgfnt_5_red.png" }
+ pal 30 { file "hires/msgfnt_5_red.png" }
+}
+texture 4629 {
+ pal 0 { file "hires/msgfnt_6_blue.png" }
+ pal 16 { file "hires/msgfnt_6_bronze.png" }
+ pal 19 { file "hires/msgfnt_6_red.png" }
+ pal 25 { file "hires/msgfnt_6_red.png" }
+ pal 30 { file "hires/msgfnt_6_red.png" }
+}
+texture 4630 {
+ pal 0 { file "hires/msgfnt_7_blue.png" }
+ pal 16 { file "hires/msgfnt_7_bronze.png" }
+ pal 19 { file "hires/msgfnt_7_red.png" }
+ pal 25 { file "hires/msgfnt_7_red.png" }
+ pal 30 { file "hires/msgfnt_7_red.png" }
+}
+texture 4631 {
+ pal 0 { file "hires/msgfnt_8_blue.png" }
+ pal 16 { file "hires/msgfnt_8_bronze.png" }
+ pal 19 { file "hires/msgfnt_8_red.png" }
+ pal 25 { file "hires/msgfnt_8_red.png" }
+ pal 30 { file "hires/msgfnt_8_red.png" }
+}
+texture 4632 {
+ pal 0 { file "hires/msgfnt_9_blue.png" }
+ pal 16 { file "hires/msgfnt_9_bronze.png" }
+ pal 19 { file "hires/msgfnt_9_red.png" }
+ pal 25 { file "hires/msgfnt_9_red.png" }
+ pal 30 { file "hires/msgfnt_9_red.png" }
+}
+texture 4633 {
+ pal 0 { file "hires/msgfnt_dd_blue.png" }
+ pal 16 { file "hires/msgfnt_dd_bronze.png" }
+ pal 19 { file "hires/msgfnt_dd_red.png" }
+ pal 25 { file "hires/msgfnt_dd_red.png" }
+ pal 30 { file "hires/msgfnt_dd_red.png" }
+}
+texture 4634 {
+ pal 0 { file "hires/msgfnt_dc_blue.png" }
+ pal 16 { file "hires/msgfnt_dc_bronze.png" }
+ pal 19 { file "hires/msgfnt_dc_red.png" }
+ pal 25 { file "hires/msgfnt_dc_red.png" }
+ pal 30 { file "hires/msgfnt_dc_red.png" }
+}
+texture 4635 {
+ pal 0 { file "hires/msgfnt_trL_blue.png" }
+ pal 16 { file "hires/msgfnt_trL_bronze.png" }
+ pal 19 { file "hires/msgfnt_trL_red.png" }
+ pal 25 { file "hires/msgfnt_trL_red.png" }
+ pal 30 { file "hires/msgfnt_trL_red.png" }
+}
+texture 4636 {
+ pal 0 { file "hires/msgfnt_=_blue.png" }
+ pal 16 { file "hires/msgfnt_=_bronze.png" }
+ pal 19 { file "hires/msgfnt_=_red.png" }
+ pal 25 { file "hires/msgfnt_=_red.png" }
+ pal 30 { file "hires/msgfnt_=_red.png" }
+}
+texture 4637 {
+ pal 0 { file "hires/msgfnt_trR_blue.png" }
+ pal 16 { file "hires/msgfnt_trR_bronze.png" }
+ pal 19 { file "hires/msgfnt_trR_red.png" }
+ pal 25 { file "hires/msgfnt_trR_red.png" }
+ pal 30 { file "hires/msgfnt_trR_red.png" }
+}
+texture 4638 {
+ pal 0 { file "hires/msgfnt_qst_blue.png" }
+ pal 16 { file "hires/msgfnt_qst_bronze.png" }
+ pal 19 { file "hires/msgfnt_qst_red.png" }
+ pal 25 { file "hires/msgfnt_qst_red.png" }
+ pal 30 { file "hires/msgfnt_qst_red.png" }
+}
+texture 4639 {
+ pal 0 { file "hires/msgfnt_@_blue.png" }
+ pal 16 { file "hires/msgfnt_@_bronze.png" }
+ pal 19 { file "hires/msgfnt_@_red.png" }
+ pal 25 { file "hires/msgfnt_@_red.png" }
+ pal 30 { file "hires/msgfnt_@_red.png" }
+}
+texture 4640 {
+ pal 0 { file "hires/msgfnt_A_blue.png" }
+ pal 16 { file "hires/msgfnt_A_bronze.png" }
+ pal 19 { file "hires/msgfnt_A_red.png" }
+ pal 25 { file "hires/msgfnt_A_red.png" }
+ pal 30 { file "hires/msgfnt_A_red.png" }
+}
+texture 4641 {
+ pal 0 { file "hires/msgfnt_B_blue.png" }
+ pal 16 { file "hires/msgfnt_B_bronze.png" }
+ pal 19 { file "hires/msgfnt_B_red.png" }
+ pal 25 { file "hires/msgfnt_B_red.png" }
+ pal 30 { file "hires/msgfnt_B_red.png" }
+}
+texture 4642 {
+ pal 0 { file "hires/msgfnt_C_blue.png" }
+ pal 16 { file "hires/msgfnt_C_bronze.png" }
+ pal 19 { file "hires/msgfnt_C_red.png" }
+ pal 25 { file "hires/msgfnt_C_red.png" }
+ pal 30 { file "hires/msgfnt_C_red.png" }
+}
+texture 4643 {
+ pal 0 { file "hires/msgfnt_D_blue.png" }
+ pal 16 { file "hires/msgfnt_D_bronze.png" }
+ pal 19 { file "hires/msgfnt_D_red.png" }
+ pal 25 { file "hires/msgfnt_D_red.png" }
+ pal 30 { file "hires/msgfnt_D_red.png" }
+}
+texture 4644 {
+ pal 0 { file "hires/msgfnt_E_blue.png" }
+ pal 16 { file "hires/msgfnt_E_bronze.png" }
+ pal 19 { file "hires/msgfnt_E_red.png" }
+ pal 25 { file "hires/msgfnt_E_red.png" }
+ pal 30 { file "hires/msgfnt_E_red.png" }
+}
+texture 4645 {
+ pal 0 { file "hires/msgfnt_F_blue.png" }
+ pal 16 { file "hires/msgfnt_F_bronze.png" }
+ pal 19 { file "hires/msgfnt_F_red.png" }
+ pal 25 { file "hires/msgfnt_F_red.png" }
+ pal 30 { file "hires/msgfnt_F_red.png" }
+}
+texture 4646 {
+ pal 0 { file "hires/msgfnt_G_blue.png" }
+ pal 16 { file "hires/msgfnt_G_bronze.png" }
+ pal 19 { file "hires/msgfnt_G_red.png" }
+ pal 25 { file "hires/msgfnt_G_red.png" }
+ pal 30 { file "hires/msgfnt_G_red.png" }
+}
+texture 4647 {
+ pal 0 { file "hires/msgfnt_H_blue.png" }
+ pal 16 { file "hires/msgfnt_H_bronze.png" }
+ pal 19 { file "hires/msgfnt_H_red.png" }
+ pal 25 { file "hires/msgfnt_H_red.png" }
+ pal 30 { file "hires/msgfnt_H_red.png" }
+}
+texture 4648 {
+ pal 0 { file "hires/msgfnt_I_blue.png" }
+ pal 16 { file "hires/msgfnt_I_bronze.png" }
+ pal 19 { file "hires/msgfnt_I_red.png" }
+ pal 25 { file "hires/msgfnt_I_red.png" }
+ pal 30 { file "hires/msgfnt_I_red.png" }
+}
+texture 4649 {
+ pal 0 { file "hires/msgfnt_J_blue.png" }
+ pal 16 { file "hires/msgfnt_J_bronze.png" }
+ pal 19 { file "hires/msgfnt_J_red.png" }
+ pal 25 { file "hires/msgfnt_J_red.png" }
+ pal 30 { file "hires/msgfnt_J_red.png" }
+}
+texture 4650 {
+ pal 0 { file "hires/msgfnt_K_blue.png" }
+ pal 16 { file "hires/msgfnt_K_bronze.png" }
+ pal 19 { file "hires/msgfnt_K_red.png" }
+ pal 25 { file "hires/msgfnt_K_red.png" }
+ pal 30 { file "hires/msgfnt_K_red.png" }
+}
+texture 4651 {
+ pal 0 { file "hires/msgfnt_L_blue.png" }
+ pal 16 { file "hires/msgfnt_L_bronze.png" }
+ pal 19 { file "hires/msgfnt_L_red.png" }
+ pal 25 { file "hires/msgfnt_L_red.png" }
+ pal 30 { file "hires/msgfnt_L_red.png" }
+}
+texture 4652 {
+ pal 0 { file "hires/msgfnt_M_blue.png" }
+ pal 16 { file "hires/msgfnt_M_bronze.png" }
+ pal 19 { file "hires/msgfnt_M_red.png" }
+ pal 25 { file "hires/msgfnt_M_red.png" }
+ pal 30 { file "hires/msgfnt_M_red.png" }
+}
+texture 4653 {
+ pal 0 { file "hires/msgfnt_N_blue.png" }
+ pal 16 { file "hires/msgfnt_N_bronze.png" }
+ pal 19 { file "hires/msgfnt_N_red.png" }
+ pal 25 { file "hires/msgfnt_N_red.png" }
+ pal 30 { file "hires/msgfnt_N_red.png" }
+}
+texture 4654 {
+ pal 0 { file "hires/msgfnt_O_blue.png" }
+ pal 16 { file "hires/msgfnt_O_bronze.png" }
+ pal 19 { file "hires/msgfnt_O_red.png" }
+ pal 25 { file "hires/msgfnt_O_red.png" }
+ pal 30 { file "hires/msgfnt_O_red.png" }
+}
+texture 4655 {
+ pal 0 { file "hires/msgfnt_P_blue.png" }
+ pal 16 { file "hires/msgfnt_P_bronze.png" }
+ pal 19 { file "hires/msgfnt_P_red.png" }
+ pal 25 { file "hires/msgfnt_P_red.png" }
+ pal 30 { file "hires/msgfnt_P_red.png" }
+}
+texture 4656 {
+ pal 0 { file "hires/msgfnt_Q_blue.png" }
+ pal 16 { file "hires/msgfnt_Q_bronze.png" }
+ pal 19 { file "hires/msgfnt_Q_red.png" }
+ pal 25 { file "hires/msgfnt_Q_red.png" }
+ pal 30 { file "hires/msgfnt_Q_red.png" }
+}
+texture 4657 {
+ pal 0 { file "hires/msgfnt_R_blue.png" }
+ pal 16 { file "hires/msgfnt_R_bronze.png" }
+ pal 19 { file "hires/msgfnt_R_red.png" }
+ pal 25 { file "hires/msgfnt_R_red.png" }
+ pal 30 { file "hires/msgfnt_R_red.png" }
+}
+texture 4658 {
+ pal 0 { file "hires/msgfnt_S_blue.png" }
+ pal 16 { file "hires/msgfnt_S_bronze.png" }
+ pal 19 { file "hires/msgfnt_S_red.png" }
+ pal 25 { file "hires/msgfnt_S_red.png" }
+ pal 30 { file "hires/msgfnt_S_red.png" }
+}
+texture 4659 {
+ pal 0 { file "hires/msgfnt_T_blue.png" }
+ pal 16 { file "hires/msgfnt_T_bronze.png" }
+ pal 19 { file "hires/msgfnt_T_red.png" }
+ pal 25 { file "hires/msgfnt_T_red.png" }
+ pal 30 { file "hires/msgfnt_T_red.png" }
+}
+texture 4660 {
+ pal 0 { file "hires/msgfnt_U_blue.png" }
+ pal 16 { file "hires/msgfnt_U_bronze.png" }
+ pal 19 { file "hires/msgfnt_U_red.png" }
+ pal 25 { file "hires/msgfnt_U_red.png" }
+ pal 30 { file "hires/msgfnt_U_red.png" }
+}
+texture 4661 {
+ pal 0 { file "hires/msgfnt_V_blue.png" }
+ pal 16 { file "hires/msgfnt_V_bronze.png" }
+ pal 19 { file "hires/msgfnt_V_red.png" }
+ pal 25 { file "hires/msgfnt_V_red.png" }
+ pal 30 { file "hires/msgfnt_V_red.png" }
+}
+texture 4662 {
+ pal 0 { file "hires/msgfnt_W_blue.png" }
+ pal 16 { file "hires/msgfnt_W_bronze.png" }
+ pal 19 { file "hires/msgfnt_W_red.png" }
+ pal 25 { file "hires/msgfnt_W_red.png" }
+ pal 30 { file "hires/msgfnt_W_red.png" }
+}
+texture 4663 {
+ pal 0 { file "hires/msgfnt_X_blue.png" }
+ pal 16 { file "hires/msgfnt_X_bronze.png" }
+ pal 19 { file "hires/msgfnt_X_red.png" }
+ pal 25 { file "hires/msgfnt_X_red.png" }
+ pal 30 { file "hires/msgfnt_X_red.png" }
+}
+texture 4664 {
+ pal 0 { file "hires/msgfnt_Y_blue.png" }
+ pal 16 { file "hires/msgfnt_Y_bronze.png" }
+ pal 19 { file "hires/msgfnt_Y_red.png" }
+ pal 25 { file "hires/msgfnt_Y_red.png" }
+ pal 30 { file "hires/msgfnt_Y_red.png" }
+}
+texture 4665 {
+ pal 0 { file "hires/msgfnt_Z_blue.png" }
+ pal 16 { file "hires/msgfnt_Z_bronze.png" }
+ pal 19 { file "hires/msgfnt_Z_red.png" }
+ pal 25 { file "hires/msgfnt_Z_red.png" }
+ pal 30 { file "hires/msgfnt_Z_red.png" }
+}
+texture 4672 {
+ pal 0 { file "hires/msgfontsmall_a_blue.png" }
+ pal 16 { file "hires/msgfontsmall_a_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_a_red.png" }
+ pal 19 { file "hires/msgfontsmall_a_red.png" }
+ pal 30 { file "hires/msgfontsmall_a_red.png" }
+}
+texture 4673 {
+ pal 0 { file "hires/msgfontsmall_b_blue.png" }
+ pal 16 { file "hires/msgfontsmall_b_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_b_red.png" }
+ pal 19 { file "hires/msgfontsmall_b_red.png" }
+ pal 30 { file "hires/msgfontsmall_b_red.png" }
+}
+texture 4674 {
+ pal 0 { file "hires/msgfontsmall_c_blue.png" }
+ pal 16 { file "hires/msgfontsmall_c_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_c_red.png" }
+ pal 19 { file "hires/msgfontsmall_c_red.png" }
+ pal 30 { file "hires/msgfontsmall_c_red.png" }
+}
+texture 4675 {
+ pal 0 { file "hires/msgfontsmall_d_blue.png" }
+ pal 16 { file "hires/msgfontsmall_d_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_d_red.png" }
+ pal 19 { file "hires/msgfontsmall_d_red.png" }
+ pal 30 { file "hires/msgfontsmall_d_red.png" }
+}
+texture 4676 {
+ pal 0 { file "hires/msgfontsmall_e_blue.png" }
+ pal 16 { file "hires/msgfontsmall_e_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_e_red.png" }
+ pal 19 { file "hires/msgfontsmall_e_red.png" }
+ pal 30 { file "hires/msgfontsmall_e_red.png" }
+}
+texture 4677 {
+ pal 0 { file "hires/msgfontsmall_f_blue.png" }
+ pal 16 { file "hires/msgfontsmall_f_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_f_red.png" }
+ pal 19 { file "hires/msgfontsmall_f_red.png" }
+ pal 30 { file "hires/msgfontsmall_f_red.png" }
+}
+texture 4678 {
+ pal 0 { file "hires/msgfontsmall_g_blue.png" }
+ pal 16 { file "hires/msgfontsmall_g_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_g_red.png" }
+ pal 19 { file "hires/msgfontsmall_g_red.png" }
+ pal 30 { file "hires/msgfontsmall_g_red.png" }
+}
+texture 4679 {
+ pal 0 { file "hires/msgfontsmall_h_blue.png" }
+ pal 16 { file "hires/msgfontsmall_h_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_h_red.png" }
+ pal 19 { file "hires/msgfontsmall_h_red.png" }
+ pal 30 { file "hires/msgfontsmall_h_red.png" }
+}
+texture 4680 {
+ pal 0 { file "hires/msgfontsmall_i_blue.png" }
+ pal 16 { file "hires/msgfontsmall_i_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_i_red.png" }
+ pal 19 { file "hires/msgfontsmall_i_red.png" }
+ pal 30 { file "hires/msgfontsmall_i_red.png" }
+}
+texture 4681 {
+ pal 0 { file "hires/msgfontsmall_j_blue.png" }
+ pal 16 { file "hires/msgfontsmall_j_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_j_red.png" }
+ pal 19 { file "hires/msgfontsmall_j_red.png" }
+ pal 30 { file "hires/msgfontsmall_j_red.png" }
+}
+texture 4682 {
+ pal 0 { file "hires/msgfontsmall_k_blue.png" }
+ pal 16 { file "hires/msgfontsmall_k_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_k_red.png" }
+ pal 19 { file "hires/msgfontsmall_k_red.png" }
+ pal 30 { file "hires/msgfontsmall_k_red.png" }
+}
+texture 4683 {
+ pal 0 { file "hires/msgfontsmall_l_blue.png" }
+ pal 16 { file "hires/msgfontsmall_l_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_l_red.png" }
+ pal 19 { file "hires/msgfontsmall_l_red.png" }
+ pal 30 { file "hires/msgfontsmall_l_red.png" }
+}
+texture 4684 {
+ pal 0 { file "hires/msgfontsmall_m_blue.png" }
+ pal 16 { file "hires/msgfontsmall_m_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_m_red.png" }
+ pal 19 { file "hires/msgfontsmall_m_red.png" }
+ pal 30 { file "hires/msgfontsmall_m_red.png" }
+}
+texture 4685 {
+ pal 0 { file "hires/msgfontsmall_n_blue.png" }
+ pal 16 { file "hires/msgfontsmall_n_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_n_red.png" }
+ pal 19 { file "hires/msgfontsmall_n_red.png" }
+ pal 30 { file "hires/msgfontsmall_n_red.png" }
+}
+texture 4686 {
+ pal 0 { file "hires/msgfontsmall_o_blue.png" }
+ pal 16 { file "hires/msgfontsmall_o_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_o_red.png" }
+ pal 19 { file "hires/msgfontsmall_o_red.png" }
+ pal 30 { file "hires/msgfontsmall_o_red.png" }
+}
+texture 4687 {
+ pal 0 { file "hires/msgfontsmall_p_blue.png" }
+ pal 16 { file "hires/msgfontsmall_p_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_p_red.png" }
+ pal 19 { file "hires/msgfontsmall_p_red.png" }
+ pal 30 { file "hires/msgfontsmall_p_red.png" }
+}
+texture 4688 {
+ pal 0 { file "hires/msgfontsmall_q_blue.png" }
+ pal 16 { file "hires/msgfontsmall_q_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_q_red.png" }
+ pal 19 { file "hires/msgfontsmall_q_red.png" }
+ pal 30 { file "hires/msgfontsmall_q_red.png" }
+}
+texture 4689 {
+ pal 0 { file "hires/msgfontsmall_r_blue.png" }
+ pal 16 { file "hires/msgfontsmall_r_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_r_red.png" }
+ pal 19 { file "hires/msgfontsmall_r_red.png" }
+ pal 30 { file "hires/msgfontsmall_r_red.png" }
+}
+texture 4690 {
+ pal 0 { file "hires/msgfontsmall_s_blue.png" }
+ pal 16 { file "hires/msgfontsmall_s_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_s_red.png" }
+ pal 19 { file "hires/msgfontsmall_s_red.png" }
+ pal 30 { file "hires/msgfontsmall_s_red.png" }
+}
+texture 4691 {
+ pal 0 { file "hires/msgfontsmall_t_blue.png" }
+ pal 16 { file "hires/msgfontsmall_t_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_t_red.png" }
+ pal 19 { file "hires/msgfontsmall_t_red.png" }
+ pal 30 { file "hires/msgfontsmall_t_red.png" }
+}
+texture 4692 {
+ pal 0 { file "hires/msgfontsmall_u_blue.png" }
+ pal 16 { file "hires/msgfontsmall_u_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_u_red.png" }
+ pal 19 { file "hires/msgfontsmall_u_red.png" }
+ pal 30 { file "hires/msgfontsmall_u_red.png" }
+}
+texture 4693 {
+ pal 0 { file "hires/msgfontsmall_v_blue.png" }
+ pal 16 { file "hires/msgfontsmall_v_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_v_red.png" }
+ pal 19 { file "hires/msgfontsmall_v_red.png" }
+ pal 30 { file "hires/msgfontsmall_v_red.png" }
+}
+texture 4694 {
+ pal 0 { file "hires/msgfontsmall_w_blue.png" }
+ pal 16 { file "hires/msgfontsmall_w_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_w_red.png" }
+ pal 19 { file "hires/msgfontsmall_w_red.png" }
+ pal 30 { file "hires/msgfontsmall_w_red.png" }
+}
+texture 4695 {
+ pal 0 { file "hires/msgfontsmall_x_blue.png" }
+ pal 16 { file "hires/msgfontsmall_x_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_x_red.png" }
+ pal 19 { file "hires/msgfontsmall_x_red.png" }
+ pal 30 { file "hires/msgfontsmall_x_red.png" }
+}
+texture 4696 {
+ pal 0 { file "hires/msgfontsmall_y_blue.png" }
+ pal 16 { file "hires/msgfontsmall_y_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_y_red.png" }
+ pal 19 { file "hires/msgfontsmall_y_red.png" }
+ pal 30 { file "hires/msgfontsmall_y_red.png" }
+}
+texture 4697 {
+ pal 0 { file "hires/msgfontsmall_z_blue.png" }
+ pal 16 { file "hires/msgfontsmall_z_bronze.png" }
+ pal 14 { file "hires/msgfontsmall_z_red.png" }
+ pal 19 { file "hires/msgfontsmall_z_red.png" }
+ pal 30 { file "hires/msgfontsmall_z_red.png" }
+}
+texture 4666 {
+ pal 0 { file "hires/msgfnt_[_blue.png" }
+ pal 16 { file "hires/msgfnt_[_bronze.png" }
+ pal 19 { file "hires/msgfnt_[_red.png" }
+ pal 25 { file "hires/msgfnt_[_red.png" }
+ pal 30 { file "hires/msgfnt_[_red.png" }
+}
+texture 4667 {
+ pal 0 { file "hires/msgfnt_bksl_blue.png" }
+ pal 16 { file "hires/msgfnt_bksl_bronze.png" }
+ pal 19 { file "hires/msgfnt_bksl_red.png" }
+ pal 25 { file "hires/msgfnt_bksl_red.png" }
+ pal 30 { file "hires/msgfnt_bksl_red.png" }
+}
+texture 4668 {
+ pal 0 { file "hires/msgfnt_]_blue.png" }
+ pal 16 { file "hires/msgfnt_]_bronze.png" }
+ pal 19 { file "hires/msgfnt_]_red.png" }
+ pal 25 { file "hires/msgfnt_]_red.png" }
+ pal 30 { file "hires/msgfnt_]_red.png" }
+}
+texture 4669 {
+ pal 0 { file "hires/msgfnt_^_blue.png" }
+ pal 16 { file "hires/msgfnt_^_bronze.png" }
+ pal 19 { file "hires/msgfnt_^_red.png" }
+ pal 25 { file "hires/msgfnt_^_red.png" }
+ pal 30 { file "hires/msgfnt_^_red.png" }
+}
+texture 4670 {
+ pal 0 { file "hires/msgfnt___blue.png" }
+ pal 16 { file "hires/msgfnt___bronze.png" }
+ pal 19 { file "hires/msgfnt___red.png" }
+ pal 25 { file "hires/msgfnt___red.png" }
+ pal 30 { file "hires/msgfnt___red.png" }
+}
+texture 4671 {
+ pal 0 { file "hires/msgfnt_ap_blue.png" }
+ pal 16 { file "hires/msgfnt_ap_bronze.png" }
+ pal 19 { file "hires/msgfnt_ap_red.png" }
+ pal 25 { file "hires/msgfnt_ap_red.png" }
+ pal 30 { file "hires/msgfnt_ap_red.png" }
+}
+texture 4698 {
+ pal 0 { file "hires/msgfnt_{_blue.png" }
+ pal 16 { file "hires/msgfnt_{_bronze.png" }
+ pal 19 { file "hires/msgfnt_{_red.png" }
+ pal 25 { file "hires/msgfnt_{_red.png" }
+ pal 30 { file "hires/msgfnt_{_red.png" }
+}
+texture 4699 {
+ pal 0 { file "hires/msgfnt_dd_blue.png" }
+ pal 16 { file "hires/msgfnt_dd_bronze.png" }
+ pal 19 { file "hires/msgfnt_dd_red.png" }
+ pal 25 { file "hires/msgfnt_dd_red.png" }
+ pal 30 { file "hires/msgfnt_dd_red.png" }
+}
+texture 4700 {
+ pal 0 { file "hires/msgfnt_}_blue.png" }
+ pal 16 { file "hires/msgfnt_}_bronze.png" }
+ pal 19 { file "hires/msgfnt_}_red.png" }
+ pal 25 { file "hires/msgfnt_}_red.png" }
+ pal 30 { file "hires/msgfnt_}_red.png" }
+}
+texture 4701 {
+ pal 0 { file "hires/msgfnt_~_blue.png" }
+ pal 16 { file "hires/msgfnt_~_bronze.png" }
+ pal 19 { file "hires/msgfnt_~_red.png" }
+ pal 25 { file "hires/msgfnt_~_red.png" }
+ pal 30 { file "hires/msgfnt_~_red.png" }
+}
+texture 5376 { pal 0 { file "hires/bossbar_001.png" } }
+texture 5377 { pal 0 { file "hires/bossbar_002.png" } }
+texture 5378 { pal 0 { file "hires/bossbar_003.png" } }
+texture 5379 { pal 0 { file "hires/bossbar_004.png" } }
+texture 5380 { pal 0 { file "hires/bossbar_005.png" } }
+texture 5381 { pal 0 { file "hires/bossbar_006.png" } }
+texture 5382 { pal 0 { file "hires/bossbar_007.png" } }
+texture 5383 { pal 0 { file "hires/bossbar_008.png" } }
+texture 5384 { pal 0 { file "hires/bossbar_009.png" } }
+texture 5385 { pal 0 { file "hires/bossbar_010.png" } }
+texture 5386 { pal 0 { file "hires/bossbar_011.png" } }
+texture 5387 { pal 0 { file "hires/bossbar_012.png" } }
+texture 5388 { pal 0 { file "hires/bossbar_013.png" } }
+texture 5389 { pal 0 { file "hires/bossbar_014.png" } }
+texture 5390 { pal 0 { file "hires/bossbar_015.png" } }
+texture 5391 { pal 0 { file "hires/bossbar_016.png" } }
+texture 5392 { pal 0 { file "hires/bossbar_017.png" } }
+texture 5393 { pal 0 { file "hires/bossbar_018.png" } }
+texture 5394 { pal 0 { file "hires/bossbar_019.png" } }
+texture 5395 { pal 0 { file "hires/bossbar_020.png" } }
+texture 5396 { pal 0 { file "hires/bossbar_021.png" } }
+texture 5397 { pal 0 { file "hires/bossbar_022.png" } }
+texture 5398 { pal 0 { file "hires/bossbar_023.png" } }
+texture 5399 { pal 0 { file "hires/bossbar_024.png" } }
+texture 5400 { pal 0 { file "hires/bossbar_025.png" } }
+texture 5401 { pal 0 { file "hires/bossbar_026.png" } }
+texture 5402 { pal 0 { file "hires/bossbar_027.png" } }
+texture 5403 { pal 0 { file "hires/bossbar_028.png" } }
+texture 5404 { pal 0 { file "hires/bossbar_029.png" } }
+texture 5405 { pal 0 { file "hires/bossbar_030.png" } }
+texture 5406 { pal 0 { file "hires/bossbar_empty.png" } }
+texture 5407 { pal 0 { file "hires/boss.png" } }
+texture 5408 { pal 0 { file "hires/air.png" } }
+texture 9400 { pal 0 { file "hires/loading.png" orig_sizex 428 orig_sizey 200 } }
+texture 9401 { pal 0 { file "hires/hud.png" orig_sizex 428 orig_sizey 48 } }

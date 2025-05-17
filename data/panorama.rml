@@ -1,0 +1,19 @@
+<rml>
+<head>
+    <style>
+        body {
+            width: 1920px;
+            height: 656px;
+            top: 424px;
+            z-index: -1;
+            background-decorator: texture;
+            background-image-src: assets/panorama1.png;
+            background-wrap-t: clamp;
+        }
+    </style>
+</head>
+
+<body id="panorama">
+
+</body>
+</rml>

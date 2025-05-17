@@ -1,0 +1,15 @@
+<rml>
+<head>
+    <link type="text/css" href="confirmation.rcss"/>
+</head>
+
+<body id="ok">
+
+<div class="game-menu">
+    <div id="yes" command="confirm-yes">OK</div>
+</div>
+
+<div id="question">Question</div>
+
+</body>
+</rml>

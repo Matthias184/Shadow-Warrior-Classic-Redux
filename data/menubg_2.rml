@@ -1,0 +1,25 @@
+<rml>
+<head>
+    <style>
+        body {
+            margin: auto;
+            font-size: 20pt;
+            font-family: Averia;
+            width: 1920px;
+            height: 1080px;
+            background-color: rgb(255,255,255);
+            z-index: -2;
+        }
+        .abspos {
+            position: absolute;
+            display: block;
+        }
+    </style>
+</head>
+
+<body id="menu-bg">
+    <img src="assets/SWLogo.png" class="abspos" style="left:1087px;top:41px;"/>
+    <img src="assets/AddonLogoTD.png" class="abspos" style="left:1205px;top:175px;"/>
+
+</body>
+</rml>

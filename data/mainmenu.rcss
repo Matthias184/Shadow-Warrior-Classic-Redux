@@ -1,0 +1,7 @@
+div.game-menu {
+    top: 290px;
+}
+
+.game-menu div {
+    padding-left: 1396px;
+}

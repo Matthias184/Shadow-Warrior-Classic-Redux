@@ -1,0 +1,16 @@
+<rml>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                width: 47px;
+                height: 64px;
+                background-decorator: image;
+                background-image: assets/cursor2.png 0px 0px 47px 64px;
+            }
+        </style>
+    </head>
+    <body>
+    </body>
+</rml>

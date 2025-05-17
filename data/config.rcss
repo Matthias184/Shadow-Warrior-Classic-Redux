@@ -1,0 +1,82 @@
+.game-menu div caption {
+    display: block;
+    position: absolute;
+    width: 600px;
+}
+
+.game-menu div options {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    text-align: right;
+}
+
+.game-menu div range {
+    display: block;
+    position: absolute;
+    right: 12px;
+    width: 240px;
+    text-align: center;
+}
+
+options option {
+}
+
+hdr {
+    display:block;
+    position:fixed;
+    left:0px;
+    width:30px;
+    background-color: green;
+}
+
+ftr {
+    display:block;
+    position:fixed;
+    right:-30px;
+    top: 0px;
+    width: 30px;
+    background-color: blue;
+}
+
+.game-menu div {
+    text-align: left;
+    height: 80px;
+}
+
+expander {
+    min-width: 100px;
+    min-height: 80pt;
+}
+
+input.range {
+    height: 40px;
+}
+
+.game-menu div input.range sliderbar {
+    width: 48px;
+    height: 24px;
+    background-color: rgb(168,40,39);
+}
+
+.game-menu div.highlighted input.range sliderbar {
+    background-color: white;
+}
+
+.game-menu div input.range slidertrack {
+    background-color: rgb(179,179,179);
+    height: 24px;
+}
+
+.game-menu div.highlighted input.range slidertrack {
+    background-color: rgb(77,77,77);
+    height: 24px;
+}
+
+ddinput.range slidertrack {
+    background-decorator: tiled-horizontal;
+    background-left-image: assets/slidertrack.png 0px 0px 10px 40px;
+    background-center-image: assets/slidertrack.png stretch 10px 0px 30px 40px;
+    background-bottom-image: assets/slidertrack.png 30px 0px 40px 40px;
+}

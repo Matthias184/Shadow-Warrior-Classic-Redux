@@ -1,0 +1,95 @@
+<rml>
+<head>
+    <link type="text/css" href="common.rcss"/>
+    <link type="text/css" href="config.rcss"/>
+    <link type="text/css" href="video.rcss"/>
+    <title>VIDEO SETTINGS</title>
+</head>
+
+<body id="menu-video">
+
+<div class="title">VIDEO</div>
+
+<div class="game-menu sf">
+
+    <div id="video-mode" options class="noarrows">
+    <t>
+        <caption>VIDEO MODE</caption>
+        <options/>
+    </t>
+    </div>
+
+    <div id="fullscreen-mode" options class="noarrows">
+    <t>
+        <caption>FULLSCREEN</caption>
+        <options>
+            <option id="fullscreen-on">ON</option>
+            <option id="fullscreen-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="vertical-sync" options class="noarrows">
+    <t>
+        <caption>VSYNC</caption>
+        <options>
+            <option id="vsync-on">ON</option>
+            <option id="vsync-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="max-fps" options class="noarrows">
+    <t>
+        <caption>MAX FPS</caption>
+        <options/>
+    </t>
+    </div>
+
+    <div id="texture-filter" options class="noarrows">
+    <t>
+        <caption>TEXTURES</caption>
+        <options>
+            <option id="smooth">SMOOTH</option>
+            <option id="retro">RETRO</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="use-voxels" options class="noarrows">
+    <t>
+        <caption>VOXELS</caption>
+        <options>
+            <option id="voxels-on">ON</option>
+            <option id="voxels-off">OFF</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="gamma" range class="noarrows">
+    <t>
+        <caption>BRIGHTNESS</caption>
+        <range min="0" max="64" step="4" value="0"/>
+    </t>
+    </div>
+
+    <div id="classic-lighting" options class="noarrows">
+    <t>
+        <caption>LIGHTING</caption>
+        <options>
+            <option id="classic-lighting-on">Accurate</option>
+            <option id="classic-lighting-off">Fast</option>
+        </options>
+    </t>
+    </div>
+
+    <div id="fov" range class="noarrows">
+    <t>
+        <caption>FOV</caption>
+        <range min="60" max="145" step="5" value="90"/>
+    </t>
+    </div>
+</div>
+
+</body>
+</rml>

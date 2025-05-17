@@ -1,0 +1,46 @@
+.game-menu.sf div {
+    height: 54px;
+    width: 693px;
+}
+
+.game-menu.sf div t {
+    height: 54px;
+    font-size: 40pt;
+}
+
+.game-menu.sf div.empty {
+    color: rgb(179,179,179);
+}
+
+#thumbnail {
+    position: relative;
+    display:block;
+    xleft: 15px;
+    xtop: 15px;
+    width: 290px;
+    height: 181px;
+    margin: 15px 15px 0px 15px;
+}
+
+#info {
+    position: absolute;
+    display: block;
+    left: 1460px;
+    top: 380px;
+    width: 320px;
+    height: 313px;
+    background: rgb(168,40,39);
+}
+
+#thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+#levelno, #level, #skill {
+    display: block;
+    text-align: center;
+    height: 32px;
+    width: 100%;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,21 @@
+<rml>
+<head>
+    <link type="text/css" href="common.rcss"/>
+    <link type="text/css" href="mainmenu.rcss"/>
+    <title>SHADOW WARRIOR</title>
+</head>
+
+<body id="menu-ingame">
+
+<div class="game-menu bcf">
+    <div id="resume" command="resume-game"><t>RESUME</t></div>
+    <div id="options" submenu="menu-options"><t>OPTIONS</t></div>
+    <div id="save-game" submenu="menu-save"><t>SAVE GAME</t></div>
+    <div id="load-game" submenu="menu-load"><t>LOAD GAME</t></div>
+    <div id="help" command="open-hub"><t>COMMUNITY</t></div>
+    <div id="stop" command="game-stop"><t>QUIT TO TITLE</t></div>
+    <div id="quit" command="game-quit"><t>QUIT GAME</t></div>
+</div>
+
+</body>
+</rml>
